@@ -1,0 +1,8 @@
+{
+      text-align: center;
+      background: url("http://i.imgur.com/8SlLYON.jpg");
+      background-size: echo;
+      background-position: center;
+      color: black;
+      font-family: Rockwell;
+    }
