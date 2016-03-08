@@ -1,0 +1,13 @@
+h1 {
+	color: red;
+}
+.main{
+	font-weight: bold;
+	font-size: 20px;
+}
+#color{
+	color: green;
+}
+#font{
+	font-family: "Times New Roman";
+}
