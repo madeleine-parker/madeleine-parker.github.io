@@ -11,3 +11,8 @@ h1 {
 #font{
 	font-family: "Times New Roman";
 }
+body {
+	background-image: url("http://i.imgur.com/V1uZhcM.jpg");
+	background-size: cover;
+	background-position: center;
+}
