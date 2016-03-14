@@ -4,31 +4,24 @@ h3 {
 }
 
 
-h2 {
-	font-family: "Tempus Sans ITC";
-	font-weight: bold;
-	color: black;
-	font-size: 50px;
-	font-style: italic;
-	margin: 1px;
-}
-
 h3 {
-	color: #1c6314;
+	color: black;
 	font-family: "Calibri";
 	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
 	margin: 10px;
 }
+
 h4 {
 	color: white;
 	font-family: "Calibri";
-	font-size: 54px;
+	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
-	margin: 15px 5px 15px 5px;
+	margin: 15px 5px 25px 5px;
 	background: black;
+	border: 15;
 
 }
 
@@ -36,6 +29,7 @@ body {
   background-size: cover;
   text-align: center;
 }
+
 ul {
       padding: 5px;
       background: black;
