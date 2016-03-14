@@ -2,19 +2,9 @@
 h3 {
   color: #1c6314;
 }
-.main{
-  font-weight: red;
-  font-size: 20px;
-}
-#color{
-  color: green;
-}
-#font{
-  font-family: "Helvetica";
-  font-size: 20px;
-}
 
-#title{
+
+h2 {
 	font-family: "Tempus Sans ITC";
 	font-weight: bold;
 	color: black;
@@ -23,13 +13,22 @@ h3 {
 	margin: 1px;
 }
 
-p {
+h3 {
 	color: #1c6314;
-	font-family: "Lucinda Console";
-	font-size: 26px;
+	font-family: "Arial";
+	font-size: 22px;
 	font-weight: bold;
 	text-align: center;
-	margin: 0px;
+	margin: 10px;
+}
+h4 {
+	color: #677880;
+	font-family: "Arial";
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px 5px 15px 5px;
+
 }
 
 body {
@@ -52,14 +51,15 @@ a {
 
 
 input[type="email"]{
-      border: 5;
       padding: 5px;
       background: white;
       font-size: 20px;
-      width: 275px;
+      width: 290px;
+      border: 0;
     }
 input[type="submit"] {
       background: green;
       color: white;
       font-size: 20px;
+      padding: 5px;
     }
