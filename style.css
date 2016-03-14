@@ -15,19 +15,20 @@ h2 {
 
 h3 {
 	color: #1c6314;
-	font-family: "Arial";
-	font-size: 22px;
+	font-family: "Calibri";
+	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
 	margin: 10px;
 }
 h4 {
-	color: #677880;
-	font-family: "Arial";
-	font-size: 48px;
+	color: white;
+	font-family: "Calibri";
+	font-size: 54px;
 	font-weight: bold;
 	text-align: center;
 	margin: 15px 5px 15px 5px;
+	background: black;
 
 }
 
@@ -58,7 +59,7 @@ input[type="email"]{
       border: 0;
     }
 input[type="submit"] {
-      background: green;
+      background: #678404;
       color: white;
       font-size: 20px;
       padding: 5px;
