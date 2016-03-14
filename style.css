@@ -34,7 +34,7 @@ a {
 p {
 	color: #1c6314;
 	font-family: "Arial";
-	font-size: 10px;
+	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
 	margin: 0px;
@@ -44,19 +44,18 @@ h3 {
 	font-family: "Tempus Sans ITC";
 	font-weight: bold;
 	font-size: 50px;
+	font-style: italic;
 	margin: 1px;
 }
-input {
-      border: 0;
+input[type="email"]{
+      border: 5;
       padding: 5px;
       background: white;
+      font-size: 20px;
+      width: 275px;
     }
 input[type="submit"] {
       background: green;
       color: white;
       font-size: 20px;
     }
-input[type="email"] {
-	font-size: 20px;
-	width: 275px;
-}
