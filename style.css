@@ -1,18 +1,47 @@
-h1 {
-	color: red;
+
+h3 {
+  color: #1c6314;
 }
 .main{
-	font-weight: bold;
-	font-size: 20px;
+  font-weight: red;
+  font-size: 20px;
 }
 #color{
-	color: green;
+  color: green;
 }
 #font{
-	font-family: "Times New Roman";
+  font-family: "Helvetica";
 }
 body {
-	background-image: url("http://i.imgur.com/V1uZhcM.jpg");
-	background-size: cover;
-	background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+ul {
+      padding: 5px;
+      background: black;
+    }
+    li {
+      display: inline;
+      padding: 0px 5px 0px 5px;
+}
+a {
+      color: white;
+      font-family: "Helvetica";
+      padding: 20px 20px 20px 20px;
+    }
+
+p {
+	color: #1c6314;
+	font-family: "Arial";
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+}
+h3 {
+	color: black;
+	font-family: "Tempus Sans ITC";
+	font-weight: bold;
+	font-size: 50px;
+	margin: 1px;
 }
