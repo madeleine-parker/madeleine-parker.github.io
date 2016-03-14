@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf8">
+  <meta charset="utf-8">
   <title>Maddie Parker</title>
   <link href='dist/css/bootstrap.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="style.css">
   
-  <style>
-
-    input[type="submit"] {
-      background: green;
-      color: white;
-    }
-  </style>
 </head>
 <body>
 
   <h1>
     <a href="http://imgur.com/YQn13Lm"><img src="http://i.imgur.com/YQn13Lm.gif" width="35%" height="auto" title="source: imgur.com" /></a>
   </h1>
-  <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">DESTINATIONS</a></li>
-      <li><a href="#">PLAN&GO</a></li>
-  </ul>
+  <div class="navbar">
+            <div class="navbar-inner">
+              <div class="container">
+                <ul class="nav">
+                  <li class="active"><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">DESTINATIONS</a></li>
+                  <li><a href="#">PLAN&GO</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+ 
   <h2>
     <img src="http://i.imgur.com/F6JSLQ2.jpg" width="100%" height="auto" >
   </h2>
- <h3>
-    WHO ARE WE?
-  </h3>
-  <p> Destination: Nowhere is an outdoor travel company dedicated to taking you to the most beautiful and remote places on the planet. Get back to nature with our exclusive range of camping holidays across 30 different countries worldwide. Whether you want to see the Northern Lights in Norway, trek in Tibet or camp in Canada, we've got you covered. 
-  </p>
+  <div class="hero-unit">
+        <div id="title">
+          WHO ARE WE?
+        </div>
+
+        <p>
+          Destination: Nowhere is an outdoor travel company dedicated to taking you to the most beautiful and remote places on the planet. Get back to nature with our exclusive range of camping holidays across 30 different countries worldwide. Whether you want to see the Northern Lights in Norway, trek in Tibet or camp in Canada, we've got you covered.
+        </p>
+
+        <a href="#" class="btn btn-large btn-success">Get Started</a>
+     </div>
+
 
  <div class="main">
     <div id="color">
@@ -49,5 +56,6 @@
   <input type="submit">
 
 <scriptsrc="jquery.js"></script>
-
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src=”js/bootstrap.js”></script>
 </body>
