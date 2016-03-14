@@ -50,11 +50,16 @@ input[type="email"]{
       background: white;
       font-size: 20px;
       width: 290px;
-      border: 0;
+      margin-top: 25px;
+      margin-bottom: 25px;
     }
 input[type="submit"] {
-      background: #678404;
+      background: #5CB85C;
       color: white;
       font-size: 20px;
       padding: 5px;
     }
+
+button {
+	margin: 25px;
+}
