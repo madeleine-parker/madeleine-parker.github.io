@@ -11,7 +11,7 @@ h3 {
 	color: black;
 	background: white;
 	font-family: "Calibri";
-	font-size: 27px;
+	font-size: 28px;
 	text-align: center;
 	margin: 10px;
 	border: 10px groove #C8BFE7;
@@ -23,9 +23,9 @@ h4 {
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
-	margin: 40px 5px 40px 5px;
+	margin: 20px 10px 40px 10px;
 	background: #C8BFE7;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 body {
