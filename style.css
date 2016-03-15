@@ -21,6 +21,7 @@ h4 {
 	text-align: center;
 	margin: 40px 5px 40px 5px;
 	background: #5CB85C;
+	border-radius: 10px;
 }
 
 body {
@@ -62,3 +63,5 @@ input[type="submit"] {
 button {
 	margin: 25px;
 }
+
+
