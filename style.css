@@ -20,12 +20,18 @@ h3 {
 h4 {
 	color: black;
 	font-family: "Tempus Sans ITC";
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
 	margin: 20px 10px 40px 10px;
-	background: #C8BFE7;
 	border-radius: 5px;
+	background: linear-gradient(
+  to bottom,
+  #5d9634,
+  #5d9634 50%,
+  #538c2b 50%,
+  #538c2b
+);
 }
 
 body {
